@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -77,6 +78,7 @@
                             <constraint firstItem="MEH-Ai-k7V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iGQ-al-oUP"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="trailing" secondItem="MEH-Ai-k7V" secondAttribute="trailing" id="jhL-WM-gGx"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="height" secondItem="MEH-Ai-k7V" secondAttribute="height" id="u2I-Yg-oF7"/>
+                            <constraint firstItem="yeV-KC-Mi1" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="uew-kg-EAw"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="bottom" secondItem="yeV-KC-Mi1" secondAttribute="bottom" id="vTf-qf-k38"/>
                         </constraints>
                     </view>
