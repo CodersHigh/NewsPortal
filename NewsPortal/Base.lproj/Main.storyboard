@@ -17,50 +17,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeV-KC-Mi1">
-                                <rect key="frame" x="337" y="55" width="123" height="252"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeV-KC-Mi1">
+                                <rect key="frame" x="367.5" y="28" width="232.5" height="300"/>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.71764705880000002" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Advertise">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEH-Ai-k7V">
-                                <rect key="frame" x="140" y="55" width="189" height="122"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEH-Ai-k7V">
+                                <rect key="frame" x="0.0" y="28" width="359.5" height="146"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.79607843140000001" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Headline 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-4L-i3O">
-                                <rect key="frame" x="140" y="185" width="189" height="122"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-4L-i3O">
+                                <rect key="frame" x="0.0" y="182" width="359.5" height="146"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.87450980389999999" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Headline 2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G95-ML-Wvw">
-                                <rect key="frame" x="140" y="315" width="123" height="228"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G95-ML-Wvw">
+                                <rect key="frame" x="0.0" y="336" width="232.5" height="256"/>
                                 <color key="backgroundColor" red="0.66666666669999997" green="0.84313725490000002" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Article List">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLk-42-BrG">
-                                <rect key="frame" x="271" y="315" width="189" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLk-42-BrG">
+                                <rect key="frame" x="240.5" y="336" width="359.5" height="128"/>
                                 <color key="backgroundColor" red="0.81568627449999997" green="0.81568627449999997" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Photo Carousel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5V-u9-hw4">
-                                <rect key="frame" x="271" y="439" width="189" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5V-u9-hw4">
+                                <rect key="frame" x="240.5" y="474" width="359.5" height="55.5"/>
                                 <color key="backgroundColor" red="0.64313725489999995" green="0.56078431370000004" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="RSS Feed">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gh-eS-g8T">
-                                <rect key="frame" x="271" y="496" width="189" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gh-eS-g8T">
+                                <rect key="frame" x="240.5" y="537.5" width="359.5" height="55.5"/>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.43137254899999999" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="SignUp">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -69,17 +69,33 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2Gh-eS-g8T" firstAttribute="height" secondItem="g5V-u9-hw4" secondAttribute="height" id="11x-4I-PTo"/>
                             <constraint firstItem="MEH-Ai-k7V" firstAttribute="top" secondItem="yeV-KC-Mi1" secondAttribute="top" id="2at-Rp-gSz"/>
                             <constraint firstAttribute="trailing" secondItem="yeV-KC-Mi1" secondAttribute="trailing" id="4a4-Kb-k7j"/>
+                            <constraint firstItem="HLk-42-BrG" firstAttribute="trailing" secondItem="g5V-u9-hw4" secondAttribute="trailing" id="4cV-Pf-8HQ"/>
+                            <constraint firstItem="G95-ML-Wvw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="64C-6s-820"/>
                             <constraint firstItem="yeV-KC-Mi1" firstAttribute="leading" secondItem="MEH-Ai-k7V" secondAttribute="trailing" constant="8" id="B1e-I6-8W5"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="top" secondItem="MEH-Ai-k7V" secondAttribute="bottom" constant="8" id="CU4-cc-U43"/>
                             <constraint firstItem="MEH-Ai-k7V" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Cx7-4Q-iNH"/>
+                            <constraint firstItem="HLk-42-BrG" firstAttribute="leading" secondItem="G95-ML-Wvw" secondAttribute="trailing" constant="8" id="Imm-51-QaB"/>
+                            <constraint firstAttribute="trailing" secondItem="HLk-42-BrG" secondAttribute="trailing" id="Mt7-mc-mvY"/>
+                            <constraint firstItem="g5V-u9-hw4" firstAttribute="top" secondItem="HLk-42-BrG" secondAttribute="bottom" constant="10" id="PSj-5R-qy6"/>
+                            <constraint firstItem="2Gh-eS-g8T" firstAttribute="trailing" secondItem="g5V-u9-hw4" secondAttribute="trailing" id="X3T-tK-IvX"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="leading" secondItem="MEH-Ai-k7V" secondAttribute="leading" id="Xac-GD-c44"/>
+                            <constraint firstItem="G95-ML-Wvw" firstAttribute="top" secondItem="vKB-4L-i3O" secondAttribute="bottom" constant="8" id="ZJI-Lz-OQ1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="G95-ML-Wvw" secondAttribute="bottom" constant="8" symbolic="YES" id="Zd6-J8-VJV"/>
                             <constraint firstItem="MEH-Ai-k7V" firstAttribute="width" secondItem="yeV-KC-Mi1" secondAttribute="width" multiplier="17:11" id="bHT-7h-X9q"/>
+                            <constraint firstItem="HLk-42-BrG" firstAttribute="leading" secondItem="g5V-u9-hw4" secondAttribute="leading" id="i3f-dw-FQ4"/>
                             <constraint firstItem="MEH-Ai-k7V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iGQ-al-oUP"/>
+                            <constraint firstItem="2Gh-eS-g8T" firstAttribute="leading" secondItem="g5V-u9-hw4" secondAttribute="leading" id="ijx-Rs-Erq"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="trailing" secondItem="MEH-Ai-k7V" secondAttribute="trailing" id="jhL-WM-gGx"/>
+                            <constraint firstItem="2Gh-eS-g8T" firstAttribute="top" secondItem="g5V-u9-hw4" secondAttribute="bottom" constant="8" id="k5J-aG-L56"/>
+                            <constraint firstItem="HLk-42-BrG" firstAttribute="height" secondItem="G95-ML-Wvw" secondAttribute="height" multiplier="0.5" id="o4H-SS-JTJ"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="height" secondItem="MEH-Ai-k7V" secondAttribute="height" id="u2I-Yg-oF7"/>
+                            <constraint firstItem="G95-ML-Wvw" firstAttribute="bottom" secondItem="2Gh-eS-g8T" secondAttribute="bottom" constant="-1" id="uIU-C5-h7q"/>
+                            <constraint firstItem="HLk-42-BrG" firstAttribute="top" secondItem="G95-ML-Wvw" secondAttribute="top" id="uLe-Nc-jXu"/>
                             <constraint firstItem="yeV-KC-Mi1" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="uew-kg-EAw"/>
+                            <constraint firstItem="HLk-42-BrG" firstAttribute="width" secondItem="G95-ML-Wvw" secondAttribute="width" multiplier="17:11" id="uj6-1X-BLX"/>
                             <constraint firstItem="vKB-4L-i3O" firstAttribute="bottom" secondItem="yeV-KC-Mi1" secondAttribute="bottom" id="vTf-qf-k38"/>
                         </constraints>
                     </view>
