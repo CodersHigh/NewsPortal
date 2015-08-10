@@ -16,21 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeV-KC-Mi1">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeV-KC-Mi1">
                                 <rect key="frame" x="337" y="55" width="123" height="252"/>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.71764705880000002" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Advertise">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEH-Ai-k7V">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEH-Ai-k7V">
                                 <rect key="frame" x="140" y="55" width="189" height="122"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.79607843140000001" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Headline 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-4L-i3O">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-4L-i3O">
                                 <rect key="frame" x="140" y="185" width="189" height="122"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.87450980389999999" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Headline 2">
@@ -67,6 +67,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MEH-Ai-k7V" firstAttribute="top" secondItem="yeV-KC-Mi1" secondAttribute="top" id="2at-Rp-gSz"/>
+                            <constraint firstAttribute="trailing" secondItem="yeV-KC-Mi1" secondAttribute="trailing" id="4a4-Kb-k7j"/>
+                            <constraint firstItem="yeV-KC-Mi1" firstAttribute="leading" secondItem="MEH-Ai-k7V" secondAttribute="trailing" constant="8" id="B1e-I6-8W5"/>
+                            <constraint firstItem="vKB-4L-i3O" firstAttribute="top" secondItem="MEH-Ai-k7V" secondAttribute="bottom" constant="8" id="CU4-cc-U43"/>
+                            <constraint firstItem="MEH-Ai-k7V" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Cx7-4Q-iNH"/>
+                            <constraint firstItem="vKB-4L-i3O" firstAttribute="leading" secondItem="MEH-Ai-k7V" secondAttribute="leading" id="Xac-GD-c44"/>
+                            <constraint firstItem="MEH-Ai-k7V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iGQ-al-oUP"/>
+                            <constraint firstItem="vKB-4L-i3O" firstAttribute="trailing" secondItem="MEH-Ai-k7V" secondAttribute="trailing" id="jhL-WM-gGx"/>
+                            <constraint firstItem="vKB-4L-i3O" firstAttribute="height" secondItem="MEH-Ai-k7V" secondAttribute="height" id="u2I-Yg-oF7"/>
+                            <constraint firstItem="vKB-4L-i3O" firstAttribute="bottom" secondItem="yeV-KC-Mi1" secondAttribute="bottom" id="vTf-qf-k38"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
