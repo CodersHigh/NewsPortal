@@ -12,18 +12,7 @@
 		2C718F691B78668A00CE9BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C718F671B78668A00CE9BCE /* Main.storyboard */; };
 		2C718F6B1B78668A00CE9BCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C718F6A1B78668A00CE9BCE /* Images.xcassets */; };
 		2C718F6E1B78668A00CE9BCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C718F6C1B78668A00CE9BCE /* LaunchScreen.xib */; };
-		2C718F7A1B78668B00CE9BCE /* NewsPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C718F791B78668B00CE9BCE /* NewsPortalTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2C718F741B78668B00CE9BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C718F561B78668A00CE9BCE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C718F5D1B78668A00CE9BCE;
-			remoteInfo = NewsPortal;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C718F5E1B78668A00CE9BCE /* NewsPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,12 @@
 		2C718F681B78668A00CE9BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C718F6A1B78668A00CE9BCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C718F6D1B78668A00CE9BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2C718F731B78668B00CE9BCE /* NewsPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsPortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C718F781B78668B00CE9BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C718F791B78668B00CE9BCE /* NewsPortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPortalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2C718F5B1B78668A00CE9BCE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C718F701B78668B00CE9BCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				2C718F5E1B78668A00CE9BCE /* NewsPortal.app */,
-				2C718F731B78668B00CE9BCE /* NewsPortalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,24 +112,6 @@
 			productReference = 2C718F5E1B78668A00CE9BCE /* NewsPortal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C718F721B78668B00CE9BCE /* NewsPortalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C718F801B78668B00CE9BCE /* Build configuration list for PBXNativeTarget "NewsPortalTests" */;
-			buildPhases = (
-				2C718F6F1B78668B00CE9BCE /* Sources */,
-				2C718F701B78668B00CE9BCE /* Frameworks */,
-				2C718F711B78668B00CE9BCE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2C718F751B78668B00CE9BCE /* PBXTargetDependency */,
-			);
-			name = NewsPortalTests;
-			productName = NewsPortalTests;
-			productReference = 2C718F731B78668B00CE9BCE /* NewsPortalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,10 +124,6 @@
 					2C718F5D1B78668A00CE9BCE = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					2C718F721B78668B00CE9BCE = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 2C718F5D1B78668A00CE9BCE;
-					};
 				};
 			};
 			buildConfigurationList = 2C718F591B78668A00CE9BCE /* Build configuration list for PBXProject "NewsPortal" */;
@@ -173,6 +131,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -182,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				2C718F5D1B78668A00CE9BCE /* NewsPortal */,
-				2C718F721B78668B00CE9BCE /* NewsPortalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C718F711B78668B00CE9BCE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C718F6F1B78668B00CE9BCE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C718F7A1B78668B00CE9BCE /* NewsPortalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2C718F751B78668B00CE9BCE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C718F5D1B78668A00CE9BCE /* NewsPortal */;
-			targetProxy = 2C718F741B78668B00CE9BCE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2C718F671B78668A00CE9BCE /* Main.storyboard */ = {
@@ -345,6 +280,7 @@
 				INFOPLIST_FILE = NewsPortal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -355,40 +291,7 @@
 				INFOPLIST_FILE = NewsPortal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2C718F811B78668B00CE9BCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NewsPortalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsPortal.app/NewsPortal";
-			};
-			name = Debug;
-		};
-		2C718F821B78668B00CE9BCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NewsPortalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsPortal.app/NewsPortal";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -411,14 +314,7 @@
 				2C718F7F1B78668B00CE9BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		2C718F801B78668B00CE9BCE /* Build configuration list for PBXNativeTarget "NewsPortalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C718F811B78668B00CE9BCE /* Debug */,
-				2C718F821B78668B00CE9BCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
